@@ -5,6 +5,8 @@ using UnityEngine;
 public class Script : MonoBehaviour
 {
 
+    public bool test;
+
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Hit! Trigger");
